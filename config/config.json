@@ -1,0 +1,38 @@
+{
+  "DEV": {
+    "DIRECTORIES": [
+      {
+        "INPUT_DIR": "data/",
+        "IGNORE_SUB_DIR": true,
+        "ARCHIVE": "archive/",
+        "DELETE": false
+      },
+      {
+        "INPUT_DIR": "data1/",
+        "IGNORE_SUB_DIR": true,
+        "ARCHIVE": "archive1/",
+        "DELETE": true
+      }
+    ]
+  },
+  "TEST": {
+    "DIRECTORIES": [
+      {
+        "INPUT_DIR": "data/",
+        "IGNORE_SUB_DIR": true,
+        "ARCHIVE": "archive/",
+        "DELETE": false
+      }
+    ]
+  },
+  "PROD": {
+    "DIRECTORIES": [
+      {
+        "INPUT_DIR": "data/",
+        "IGNORE_SUB_DIR": true,
+        "ARCHIVE": "archive/",
+        "DELETE": false
+      }
+    ]
+  }
+}
